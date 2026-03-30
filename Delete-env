@@ -1,0 +1,6 @@
+steps:
+- task: microsoft-IsvExpTools.PowerPlatform-BuildTools.delete-environment.PowerPlatformDeleteEnvironment@0
+  displayName: 'Power Platform Delete Environment '
+  inputs:
+    authenticationType: PowerPlatformSPN
+    PowerPlatformSPN: 'Build_Automation_SP'

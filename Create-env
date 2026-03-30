@@ -1,0 +1,9 @@
+steps:
+- task: microsoft-IsvExpTools.PowerPlatform-BuildTools.create-environment.PowerPlatformCreateEnvironment@0
+  displayName: 'Power Platform Create Environment '
+  inputs:
+    authenticationType: PowerPlatformSPN
+    PowerPlatformSPN: 'D365 Build Automation'
+    DisplayName: Test
+    EnvironmentSku: SubscriptionBasedTrial
+    DomainName: crm5.dynamics.com
